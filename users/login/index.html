@@ -16,6 +16,7 @@
     <title>login - tlochsta.tk</title>
 </head>
 <body>
+    <script src="https://developers.tlochsta.tk/users/js/auth.js"></script>
     <div class="h-screen bg-indigo-200 flex justify-center items-center">
         <form class="w-full max-w-xs bg-white flex flex-col py-5 px-8 rounded-lg shadow-lg">
             <h1 style="font-size: 15pt;" class="text-gray-700 font-bold py-1">Login to</h1>
@@ -25,7 +26,7 @@
           <label class="text-gray-700 font-bold py-2" for="pass-form">Password</label>
           <input class="text-gray-700 shadow border rounded border-gray-300 mb-3 py-1 px-3 focus:outline-none focus:shadow-outline" type="password" placeholder="********" id="pass-form">
           <div class="flex justify-between items-center my-4">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded py-2 px-4">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded py-2 px-4" function="login();">
               Sign In
             </button>
             <a class="text-blue-600 hover:text-blue-800 font-bold" href="#">
